@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(to right, rgb(145, 145, 221), rgb(216, 151, 216) );
+}
+
+
+
+section {
+    width: 70%;
+    margin: 25px auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th,
+tr {
+    padding: 1.5%;
+    width: 180px;
+    text-align: left;
+    margin: 0%;
+    height: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd){
+    background-color: rgb(201, 196, 196);
+}
+
+th {
+    background-color: rgb(148, 144, 144);
+    color: white;
+}
+.one th{
+    background-color: rgb(59, 59, 58);
+}
